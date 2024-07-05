@@ -9,9 +9,9 @@ import ContactPage from "./contact/contact"
 export function Mainpage() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
-      <header className="px-4 lg:px-6 h-14 flex items-center bg-primary text-primary-foreground">
+      <header className="w-[90%] p-[15px] rounded-[5px] fixed top-[5%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 opacity-90 z-10 px-4 lg:px-6 h-14 flex items-center px-4 lg:px-6 h-14 flex items-center bg-primary text-primary-foreground">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
-        <HomeIcon className="h-6 w-6" />
+        <img src="/logo.png" className="h-12 w-12" alt="company logo"/>
           <span className=" p-2 font-bold text-xl">Onabat</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6 items-center ">
@@ -68,7 +68,7 @@ export function Mainpage() {
           </Sheet>
       </header>
       <main className="flex-1">
-        <section className="flex justify-center w-full py-12 sm:py-24 lg:py-32 bg-primary text-primary-foreground">
+        <section className="flex justify-center w-full py-12 sm:py-24 lg:py-32 bg-primary text-primary-foreground pt-40">
           <div className="container px-4 md:px-6">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
               <div className="flex flex-col justify-center space-y-4">
