@@ -266,7 +266,7 @@ export function Mainpage() {
           <p className="   ">91300 MASSY</p>
           <p className="  mt-4 ">contact@onabat.fr</p>
 
-          <p className="  mt-4 ">TEL: 04 22 13 02 90 </p>
+          <p className="  mt-4 ">TEL: 01 85 41 02 75 </p>
           </div>
       </footer>
     </div>
